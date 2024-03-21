@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace VRT_Interface
 {
-    public class Product
+    internal class Vrt
     {
-        public int Price { get; set; }
-        public string Name { get; set; }
+       
     }
 }

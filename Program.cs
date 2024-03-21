@@ -14,9 +14,12 @@ namespace VRT_Interface
         [STAThread]
         static void Main()
         {
+            List<Product> products = new List<Product>();
+            products.Add(new Product { Name = "Vache Laitiere", Price = 1500});
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form1(products));
         }
     }
 }

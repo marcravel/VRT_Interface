@@ -12,14 +12,15 @@ namespace VRT_Interface
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        private readonly List<Product> products;
+        public Form1(List<Product> prods)
         {
             InitializeComponent();
+            products = prods;
         }
 
         private void btnShowProd_Click(object sender, EventArgs e)
         {
-
         }
     }
 }
